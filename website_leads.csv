@@ -1,0 +1,7 @@
+Lead_ID,Signup_Date,Email,Age,Device_Type
+L001,2026-01-10,herin_test@gmail.com,25.0,Mobile
+L002,01/11/2026,,30.0,Desktop
+L001,2026-01-10,herin_test@gmail.com,25.0,Mobile
+L003,2026-01-12,user3@yahoo.com,,Tablet
+L004,2026-01-13,invalid-email,45.0,Mobile
+L005,2026-01-14,contact@company.com,22.0,

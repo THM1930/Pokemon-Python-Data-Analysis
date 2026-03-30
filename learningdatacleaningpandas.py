@@ -8,17 +8,17 @@ df = pd.read_csv("data.csv")
 #  df = df.drop(columns=["Legendary", "No"])
 
 #2. handle missing data
-#  df = df.dropna(subset=["Type2"])
+#df = df.dropna(subset=["Type2"])
 #  df = df.fillna({"Type2": "None"})
 
 #3. Fix inconsistant values
 
-"""
-df["Type1"] = df["Type1"].replace({"Grass": "GRASS",
-                                   "Fire" : "FIRE",
-                                   "Water" : "WATER"
-                                   })
-"""
+
+# df["Type1"] = df["Type1"].replace({"Grass": "GRASS",
+#                                    "Fire" : "FIRE",
+#                                    "Water" : "WATER"
+#                                   })
+
 
 #4. Standarize text 
 # df["Name"] = df["Name"].str.lower()      
